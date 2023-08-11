@@ -1,0 +1,25 @@
+[MASTER]
+
+# Specify the maximum allowed line length.
+max-line-length=100
+
+# Enable or disable certain checks. 1 means enabled, 0 means disabled.
+disable=missing-module-docstring,
+        missing-function-docstring,
+        missing-class-docstring,
+        superfluous-parens
+
+[MESSAGES CONTROL]
+
+# Control the severity of certain messages. Options: I (information), W (warning), E (error), F (fatal).
+disable=bad-continuation
+
+[FORMAT]
+
+# Set the output format. Options: text, colorized, pylint.
+output-format=colorized
+
+[REPORTS]
+
+# Set the output report format. Options: no, yes.
+reports=no
