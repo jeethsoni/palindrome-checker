@@ -9,14 +9,14 @@ import re
 
 def main():
 
-    # empty lists 
+    # empty lists
     backward_phrase = []
 
     # welcome message
     print("Welcome to palindrome checker")
     print("It's stunning how forwards and backwards read the same :)\n")
 
-    # user input string 
+    # user input string
     phrase = input("Enter a string: ").lower()
 
     # removes punctuation from the string
